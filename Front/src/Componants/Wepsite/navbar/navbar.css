@@ -1,0 +1,28 @@
+.search-input input:focus{
+    outline: none !important;
+border: darkgreen 1px solid;
+}
+.search-input input{
+ box-shadow: none !important;
+}
+.search-input h3{
+    max-width: 100px;
+}
+
+.cat-title{
+    transition: 0.25s;
+
+}
+.cat-title:hover{
+    
+color: rgb(85, 85, 245) !important;
+}
+.custom-search{
+    color: rgba(0, 0, 0,0.5) !important;
+}
+.custom-search:focus{
+    border: rgba(0, 0, 0,0.1) !important;
+    outline: rgba(0, 0, 0,0.1) !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1) !important;;
+}
+

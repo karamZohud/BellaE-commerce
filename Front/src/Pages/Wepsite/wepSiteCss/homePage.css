@@ -1,0 +1,15 @@
+.hand{
+    background-image:url("../../../images/computer-2982270_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.custom-serach{
+color: rgba(0, 0, 0, 0.5) !important;
+}
+.custom-serach:focus{
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+border: rgba(0, 0, 0, 0.1) !important;
+outline: rgba(0, 0, 0, 0.1) !important;
+}

@@ -1,0 +1,19 @@
+.custem-pagention{
+ list-style: none;
+}
+.pagination-tag{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+.pagination-tag:hover{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.pre{
+    color: white !important;
+}

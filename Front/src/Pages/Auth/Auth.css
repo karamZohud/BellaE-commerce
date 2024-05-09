@@ -1,0 +1,118 @@
+
+.form {
+    background-image: linear-gradient(
+        110deg,
+        white 0%,
+        white 50%,
+        transparent 50%
+      ),
+      url('../../css/Componants/geranimo-WJkc3xZjSXw-unsplash.jpg');
+  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 33px;
+
+   position: relative;
+  }
+
+  .form-cont {
+    margin-bottom: 40px;
+    width: 100% !important;
+    position: relative;
+    margin-left: 10px;
+  }
+  .form-cont-pass{
+    margin-bottom: 15px !important;
+    position: relative;
+  }
+  .form-cont label,
+  .form-cont input {
+    display: block;
+  }
+  .form-cont input:placeholder-shown +label{
+     opacity: 0;
+     visibility: hidden;
+     top: 20px;
+      
+  }
+  .form-cont label {
+    position: absolute;
+    top: -20px;
+    left:2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    transition: 0.3s;
+  }
+  .form-cont input,
+  .form-cont select {
+    padding: 20px 20px;
+    width: 90%;
+    outline: none ;
+    border-radius: 3px;
+    border: 0;
+    background-color: white;
+  
+    border-bottom: 3px solid transparent;
+    
+    font-family: "Lato", sans-serif;
+    box-shadow: 0 0 10px rgba(152, 152, 152) inset;
+  }
+  .form-cont input:focus:valid {
+    border-bottom: solid 5px green;
+  }
+  .form-cont input:focus{
+    box-shadow: 0 0 10px rgba(152, 152, 152) inset !important;
+  }
+  .form-cont input:focus:not(:valid){
+      border-bottom: solid 5px red;
+    }
+  
+    .google-btn {
+      width: 184px;
+      height: 42px;
+      background-color:  #4285f4;
+      border-radius: 2px;
+      box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+      margin-top: 20px;
+      cursor: pointer;
+    }
+      .google-icon-wrapper {
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 1px;
+        width: 40px;
+        height: 40px;
+        border-radius: 2px;
+        background-color: #fff;
+      }
+      .google-icon {
+        position: absolute;
+        margin-top: 11px;
+        margin-left: 11px;
+        width: 18px;
+        height: 18px;
+      }
+      .btn-text {
+        float: right;
+        margin: 11px 11px 0 0;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        font-family: "Roboto";
+      }
+   
+    
+    
+      .google-btn:hover{
+        box-shadow: 0 0 6px #4285f4 ;
+      }
+      .google-btn:hover{
+        background: #1669f2 ;
+      }
+
+   
